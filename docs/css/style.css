@@ -18,6 +18,7 @@ header nav ul li{
 }
 
 main{
+    position: relative;
     margin: auto;
     width: 905px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
@@ -46,6 +47,7 @@ footer{
     text-align: left;
     margin-left: 150px;
 
+  /*background-color: #2811d7;   範囲を確認するため　後で削除する*/
 }
 
 .menu li{
@@ -57,20 +59,20 @@ footer{
     
     
 }
-/*
-.Contact{
-    text-align: right;
+
+footer .Contact{
+    width: 735px;
+    position: relative;
+    top: -93px; left: 1064px;
+  /*background-color: hsl(135, 82%, 47%); 範囲を確認するため　後で削除する*/
+    text-align: left;
     font-size: larger;
     font-weight: bolder;
-    position: absolute;
-    bottom: 100px;
 }
 
 .Contact li{
     list-style: none;
-    padding: 5px 0;
+    padding: 1.5px 0;
+    margin-left: 155px;
+    color: #FFFFFF;
 }
-*/
-
-
-
