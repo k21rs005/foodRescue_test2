@@ -34,6 +34,7 @@ main p{
 }
 
 
+
 .footerMenu{
     height: 253px;
     background-color: #F78829;
@@ -41,23 +42,36 @@ main p{
 
 .menu{
     display: flex;
+    width: 650px;
+    text-align: left;
+    margin-left: 150px;
 }
 
 .menu li{
     list-style: none;
     margin: 0 40px;
-    padding-top: 180px;
+    padding-top: 140px;
     font-size: 20px;
     color: #FFFFFF;
     margin-top: 24px;
     
+    
 }
+
+/*
 
 .Contact{
     text-align: right;
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0; right: 0;
+    padding: 10px 0;
 }
 
 .Contact li{
     list-style: none;
 }
+
+*/
 
