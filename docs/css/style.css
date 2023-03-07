@@ -64,11 +64,11 @@ footer .Contact{
     font-size: 20px;
     font-weight: bold;
 
-    /*画像を挿入
+    /*画像を挿入*/
     background-image: url(img/ロゴ_白抜き.png);
     background-repeat: no-repeat;
-    background-size: 24px;
-    */
+    background-size: contain;
+    background-position: 56% 36%;
 }
 
 .Contact li{
