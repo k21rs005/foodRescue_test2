@@ -60,10 +60,55 @@ main p{
     text-align: center;
 }
 
+.area{
+    position: relative;
+    width: 580px;
+
+    margin-top: 1em;
+    padding:1em 50px;
+    border: dashed medium #EF9547;
+    border-radius: 14px;
+
+    max-inline-size: max-content;
+    margin-inline: auto;
+}
+
+.area_label{
+    position: absolute;
+    top: 0; left: 0;
+
+    padding: 0 1em;
+    margin: 0;
+    background-color: white;
+    transform: translateY(-50%) translateX(1em);
+}
+
 .carry_food{
-    margin-left: 20%;
     margin: 40px 0;
-    border: dashed thick #EF9547;
+    /*丸付きの番号を実装する*/
+    list-style-type: none;
+    counter-reset: number;
+    margin-left: -40px;
+}
+
+.carry_food li{
+    position: relative;
+    padding-left: 1.5rem;
+    margin: 5px 0;
+}
+
+.carry_food li::before{
+    counter-increment: number;
+    content: counter(number);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.2;
 }
 
 footer{
