@@ -115,16 +115,53 @@ main p{
     margin-top: 150px;
 }
 
-#spring_2022{
+.img_headline_spring{
     position: relative;
+    top: -7px;
     width: 100px; height: 120px;
-    padding-right: 20px;
+    background: url(img/春号\ -\ コピー.png);
+    background-size: cover;
 }
 
-#headline_1{
-    width: 873px; height: 114px;
+.img_headline_foodRescue{
     position: relative;
     top: -130px; left: 100px;
+    width: 873px; height: 114px;
+    background: url(img/見出し1.png);
+    background-size: cover;
+
+}
+
+.explanatory_text_area{
+    position: relative;
+    top: -100px;
+
+    font-weight: bolder;
+    text-align: center;
+}
+
+.explanatory_text_area p{
+    border: dashed medium #F78829;
+    border-radius: 14px;
+    display: inline-block;
+    width: fit-content;
+}
+
+#subtitle{
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: -100px;
+}
+
+.img_Manga_ep1{
+    position: relative;
+    top: -130px; left: 140px;
+    width: 647px; height: 1075px;
+    background: url(img/マンガ.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 
 footer{
