@@ -33,6 +33,7 @@ main{
     width: 905px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
     font-weight:700;
+    top: -130px;
 }
 
 main h2{
@@ -166,6 +167,15 @@ main p{
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto;
+}
+
+.img_headline_foodDrive{
+    position: relative;
+    left: 70px;
+    width: 800px; height: 157px;
+    background: url(img/見出し3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer{
