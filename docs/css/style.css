@@ -17,7 +17,7 @@ header nav ul li{
     background-color: #F78829;
 }
 
-.header_img{
+#header_img{
     width: 100%; height: 640px;
     object-fit: cover;
     object-position: 50% 100%;
@@ -109,6 +109,22 @@ main p{
     border-radius: 50%;
     text-align: center;
     line-height: 1.2;
+}
+
+.Manga_ep1{
+    margin-top: 150px;
+}
+
+#spring_2022{
+    position: relative;
+    width: 100px; height: 120px;
+    padding-right: 20px;
+}
+
+#headline_1{
+    width: 873px; height: 114px;
+    position: relative;
+    top: -130px; left: 100px;
 }
 
 footer{
