@@ -21,7 +21,7 @@ header nav ul li{
     background: url(img/ヘッダー\ -\ コピー.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%; height: 640px;
+    max-width: 100%; height: 640px;
     object-fit: cover;
 }
 
@@ -30,10 +30,9 @@ header nav ul li{
 main{
     position: relative;
     margin: auto;
-    width: 905px;
+    max-width: 905px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
     font-weight:700;
-    top: -130px;
 }
 
 main h2{
@@ -67,7 +66,7 @@ main p{
 
 .area{
     position: relative;
-    width: 580px;
+    max-width: 580px;
 
     margin-top: 1em;
     padding:1em 50px;
@@ -123,7 +122,7 @@ main p{
 .img_headline_spring{
     position: relative;
     top: -7px;
-    width: 100px; height: 120px;
+    max-width: 100px; height: 120px;
     background: url(img/春号\ -\ コピー.png);
     background-size: cover;
 }
@@ -131,7 +130,7 @@ main p{
 .img_headline_foodRescue{
     position: relative;
     top: -130px; left: 100px;
-    width: 873px; height: 114px;
+    max-width: 873px; height: 114px;
     background: url(img/見出し1.png);
     background-size: cover;
 
@@ -149,7 +148,7 @@ main p{
     border: dashed medium #F78829;
     border-radius: 14px;
     display: inline-block;
-    width: fit-content;
+    max-width: fit-content;
 }
 
 #subtitle{
@@ -162,7 +161,7 @@ main p{
 .img_Manga_ep1{
     position: relative;
     top: -130px; left: 140px;
-    width: 647px; height: 1075px;
+    max-width: 647px; height: 1075px;
     background: url(img/マンガ.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -172,14 +171,37 @@ main p{
 .img_headline_foodDrive{
     position: relative;
     left: 70px;
-    width: 800px; height: 157px;
+    max-width: 800px; height: 157px;
     background: url(img/見出し3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.foodDrive_area{
+    position: relative;
+    max-width: 580px;
+
+    margin-top: 1em;
+    padding:1em 50px;
+    border: dashed medium #EF9547;
+    border-radius: 14px;
+
+    max-inline-size: max-content;
+    margin-inline: auto;
+}
+
+.foodDrive_label{
+    position: absolute;
+    top: 0; left: 0;
+
+    padding: 0 1em;
+    margin: 0;
+    background-color: white;
+    transform: translateY(-50%) translateX(1em);
+}
+
 footer{
-    width: 100%;
+    max-width: 100%;
     height: 253px;
     background-color: #F78829;
 }
