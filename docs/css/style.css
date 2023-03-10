@@ -171,9 +171,9 @@ main p{
 .img_headline_foodDrive{
     position: relative;
     left: 70px;
-    max-width: 800px; height: 157px;
+    max-width: 730px; height: 157px;
     background: url(img/見出し3.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -183,6 +183,16 @@ main p{
 
 .main_foodDrive{
     display: flex;
+    margin-bottom: 90px;
+}
+
+.list_foodDrive p{
+    margin-bottom: 0;
+}
+
+.list_foodDrive{
+    max-width: 350px; 
+    max-height: 400px;
 }
 
 .text_main_foodDrive{
@@ -204,9 +214,13 @@ main p{
     text-align: center;
 }
 
-.foodDrive_area{
+.area_foodDrive{
     position: relative;
-    max-width: 580px;
+    max-width: 816px;
+    max-height: 490px;
+
+    display: flex;
+    justify-content: space-evenly;
 
     margin-top: 1em;
     padding:1em 50px;
@@ -217,7 +231,42 @@ main p{
     margin-inline: auto;
 }
 
-.foodDrive_area p{
+
+.area_img_result_of_foodDrive{
+    position: relative;
+    right: -5%;
+    margin-top: 10%;
+}
+
+
+.area_2_img_result_of_foodDrive{
+    display: flex;
+}
+
+.img_1_result_of_foodDrive{
+    position: relative;
+    margin-left: 31%;
+
+    width: 224px;
+    height: 148px;
+    background-color: hsl(0, 97%, 42%);
+}
+
+.img_2_result_of_foodDrive{
+    width: 115px;
+    height: 152px;
+    background-color: hsl(145, 77%, 49%);
+    margin: 3% 0;
+}
+
+.img_3_result_of_foodDrive{
+    width: 224px;
+    height: 152px;
+    background-color: hsl(219, 82%, 52%);
+    margin: 3%;
+}
+
+.area_foodDrive p{
     text-align: left;
     padding: 0;
 }
@@ -233,7 +282,6 @@ main p{
 }
 
 .number_of_result_for_foodDrive{
-
     list-style: none;
 }
 
@@ -243,6 +291,7 @@ main p{
 
 .result_of_foodDrive{
     padding-left:20px;
+    margin: 0;
 }
 
 footer{
