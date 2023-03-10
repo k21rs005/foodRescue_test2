@@ -177,6 +177,33 @@ main p{
     background-repeat: no-repeat;
 }
 
+.foodDrive p{
+    font-weight: bolder;
+}
+
+.main_foodDrive{
+    display: flex;
+}
+
+.text_main_foodDrive{
+    max-width: 595px;
+}
+
+.text_main_foodDrive p{
+    padding-right: 30px;
+}
+
+.img_main_foodDrive{
+    width: 190px;
+    height: 253px;
+
+    background-color: #000;
+}
+
+#thx_for_foodDrive{
+    text-align: center;
+}
+
 .foodDrive_area{
     position: relative;
     max-width: 580px;
@@ -190,6 +217,11 @@ main p{
     margin-inline: auto;
 }
 
+.foodDrive_area p{
+    text-align: left;
+    padding: 0;
+}
+
 .foodDrive_label{
     position: absolute;
     top: 0; left: 0;
@@ -198,6 +230,19 @@ main p{
     margin: 0;
     background-color: white;
     transform: translateY(-50%) translateX(1em);
+}
+
+.number_of_result_for_foodDrive{
+
+    list-style: none;
+}
+
+.area_result_of_foodDrive{
+    display: flex;
+}
+
+.result_of_foodDrive{
+    padding-left:20px;
 }
 
 footer{
