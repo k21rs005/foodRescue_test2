@@ -294,6 +294,54 @@ main p{
     margin: 0;
 }
 
+.recipe{
+    margin-top: 160px;
+}
+
+.header_recipe{
+    position: relative;
+    max-width: 640px;
+    height: 250px;
+    background: url(img/見出し4\ -\ コピー.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.material_recipe{
+    position: relative;
+    max-width: 500px;
+    height: 260px;
+    background: url(img/レシピ1\ -\ コピー.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.method_recipe{
+    position: relative;
+    max-width: 745px;
+    height: 380px;
+    background: url(img/レシピ2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.completed_recipe{
+    position: relative;
+    max-width: 730px;
+    height: 350px;
+    background: url(img/レシピ3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 2% 0;
+}
+
 footer{
     max-width: 100%;
     height: 253px;
