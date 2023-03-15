@@ -131,6 +131,7 @@ main p{
     position: relative;
     top: -130px; 
     margin: auto;
+    margin-left: 100px;
     max-width: 873px; height: 114px;
     background: url(img/見出し1.png);
     background-size: cover;
@@ -162,8 +163,8 @@ main p{
 .img_Manga_ep1{
     position: relative;
     top: -130px;
-    max-width: 647px; height: 1075px;
-    background: url(img/マンガ.png);
+    max-width: 380px; height: 1075px;
+    background: url(img/マンガコピー.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto;
