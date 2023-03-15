@@ -129,7 +129,8 @@ main p{
 
 .img_headline_foodRescue{
     position: relative;
-    top: -130px; left: 100px;
+    top: -130px; 
+    margin: auto;
     max-width: 873px; height: 114px;
     background: url(img/見出し1.png);
     background-size: cover;
@@ -160,7 +161,7 @@ main p{
 
 .img_Manga_ep1{
     position: relative;
-    top: -130px; left: 140px;
+    top: -130px;
     max-width: 647px; height: 1075px;
     background: url(img/マンガ.png);
     background-size: contain;
