@@ -1,20 +1,12 @@
-header nav ul{
-    display: flex;
-    justify-content: flex-end;
-}
-
-header nav ul li{
-    list-style: none;
-    margin: 0 40px;
-    font-size: 20px;
-    color: #FFFFFF;
-    margin-top: 24px;
-    
-}
-
-.headerMenu{
-    height: 64px;
-    background-color: #F78829;
+.img_header_title{
+    background: url(img/見出し2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 40%;
+    height: 230px;
+    position: relative;
+    left: 60px;
+    top: 140px;
 }
 
 .img_header{
@@ -23,6 +15,8 @@ header nav ul li{
     background-repeat: no-repeat;
     max-width: 100%; height: 640px;
     object-fit: cover;
+    position: relative;
+    top: -150px;
 }
 
 
@@ -35,7 +29,13 @@ main{
     font-weight:700;
 }
 
-main h2{
+.area_about_us{
+    border: solid thin #EF9547;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#fusen{
     font-size: 25px;
     background-image: url(img/黄ふうせん_copy.png);
     background-repeat: no-repeat;
@@ -44,10 +44,22 @@ main h2{
     padding-left: 3rem;
 }
 
+#no_fusen{
+    margin-left: 10%;
+    border-bottom: dotted thin #EF9547;
+    width: 380px;
+}
+
 main p{
-    padding: 0 5rem;
-    font-size: 16.5px;
+    padding: 0 7rem;
+    font-size: 16px;
     font-weight: lighter;
+}
+
+.notice{
+    border: solid thin #EF9547;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .report {
@@ -62,6 +74,13 @@ main p{
 #setting_point{
     font-weight: bold;
     text-align: center;
+}
+
+#foodDrive_point{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #EF9547;
 }
 
 .area{
@@ -350,40 +369,36 @@ footer{
     background-color: #F78829;
 }
 
+.background_logo{
+    background: url(img/ロゴ_白抜き.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 10%;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left:45%;
+}
 
 .menu{
     display: flex;
     text-align: left;
-    margin-left: 8%;
-    /*background-color: #2811d7;   範囲を確認するため　後で削除する*/
+    margin-left: 30%;
+    /*background-color: #2811d7;   /*範囲を確認するため　後で削除する*/
 }
 
 .menu li{
     list-style: none;
-    padding-top: 150px;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 2%;
     color: #FFFFFF;
 }
 
-.Contact{
-    position: relative;
-    top: -93px;
-    /*background-color: hsl(135, 82%, 47%); 範囲を確認するため　後で削除する*/
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-
-    /*画像を挿入*/
-    background-image: url(img/ロゴ_白抜き.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 56% 36%;
+.menu_bar{
+    max-width: 80%;
 }
 
-.Contact li{
-    list-style: none;
-    padding: 1.5px 0;
-    margin-left: 60%;
-    color: #FFFFFF;
+ul.menu{
+    max-width: 80%;
 }
+
